@@ -1,0 +1,56 @@
+/* TROCCHI*/
+
+@font-face {
+    font-family: 'Trocchi';
+    font-display: swap;
+    src: url(../fonts/trocchi/Trocchi-Regular.woff) format('woff');
+}
+
+/*RALEWAY */
+/* from bolder to thinner */
+
+@font-face {
+    font-family: 'Raleway';
+    font-weight: 900;
+    font-display: swap;
+    src: url(../fonts/raleway/Raleway-Black.woff) format('woff');
+}
+@font-face {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-display: swap;
+    src: url(../fonts/raleway/Raleway-Bold.woff) format('woff');
+}
+@font-face {
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-display: swap;
+    src: url(../fonts/raleway/Raleway-SemiBold.woff) format('woff');
+}
+@font-face {
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-display: swap;
+    src: url(../fonts/raleway/Raleway-Medium.woff) format('woff');
+}
+@font-face {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-display: swap;
+    src: url(../fonts/raleway/Raleway-Regular.woff) format('woff');
+}
+@font-face {
+    font-family: 'Raleway';
+    font-weight: 300;
+    font-display: swap;
+    src: url(../fonts/raleway/Raleway-Light.woff) format('woff');
+}
+@font-face {
+    font-family: 'Raleway';
+    font-weight: 100;
+    font-display: swap;
+    src: url(../fonts/raleway/Raleway-Thin.woff) format('woff');
+}
+
+
+
