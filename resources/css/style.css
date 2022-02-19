@@ -1,29 +1,99 @@
-/*HEADER */
-
-#m-expanded-nav {
-    height: 100vh;
+/*GENERAL*/
+.letter-spacing-xl {
+    letter-spacing: 5px;
 }
 
+.letter-spacing-normal {
+    letter-spacing: normal;
+}
+
+h1 {
+    font-family: Trocchi, sans-serif;
+}
+
+.rdv-btn {
+    margin-top: 2rem;
+}
+
+.illustration-circle {
+    border-radius: 50%;
+}
+.light-circle {
+    background-color: #E8E8DF;
+    bottom : -200px;
+    right: -320px;
+    height: 400px;
+    width: 400px;
+}
+.blue-circle {
+    background-color: rgba(21, 97, 109, 0.3);
+    bottom : -60px;
+    right: -340px;
+    height: 300px;
+    width: 300px;
+}
+
+/*HEADER*/
+header {
+    height: 150px;
+}
 #logo {
     width: 5rem;
 }
+
 #brand-name {
     font-family: 'Trocchi', serif;
 }
+
 #navbar {
     letter-spacing: .1rem;
 }
 
-#logo-brand{
+#logo-brand {
     width: 100vw;
 }
 
 .hamburger-icon {
     font-size: 3rem;
 }
-/*MEDIA QUERIES*/
 
-@media (min-width: 1000px) {
+/*HOME*/
+
+#home-txt {
+    text-align: center;
+}
+
+#home{
+    margin-top : 2.5rem;
+}
+
+#home br {
+    margin: 1.5rem;
+    content: "";
+    display: block;
+}
+
+#home-img-lg {
+    border-radius: 50%;
+    box-shadow: rgba(111, 95, 76, 0.35) 0px 48px 100px 0px;
+    display: none;
+}
+
+h1 .title {
+    font-family: Raleway, sans-serif;
+}
+
+
+/*******MEDIA QUERIES*********/
+@media (min-width: 578px) {
+    #home br {
+        margin: 1rem;
+    }
+}
+
+@media (min-width: 992px) {
+
+    /*Nav*/
     .navbar-nav .nav-link {
         font-size: .8rem;
     }
@@ -31,4 +101,38 @@
     #logo-brand {
         width: auto;
     }
+
+    /*Home*/
+
+    #home-txt {
+        text-align: left;
+        margin-left: 2rem;
+        transform: translate(0,-30%);
+    }
+
+    #home-container{
+        padding: 0 2rem;
+        height: calc(100vh - 140px);
+
+    }
+    #home br {
+        margin: 0;
+    }
+
+    #home-img {
+        transform: translate(0,-20%);
+        max-width: 400px;
+    }
+
+     #home-img-lg {
+        border-radius: 50%;
+        box-shadow: rgba(111, 95, 76, 0.35) 0px 48px 100px 0px;
+        display: block;
+    }
+
+    #home-img-sm {
+        display: none;
+    }
+
+
 }
