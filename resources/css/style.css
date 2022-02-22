@@ -7,6 +7,10 @@
     letter-spacing: normal;
 }
 
+.trocchi {
+    font-family: Trocchi, serif;
+}
+
 h1 {
     font-family: Trocchi, sans-serif;
 }
@@ -94,7 +98,7 @@ h1 .title {
 /********TERV*********/
 
 #terv {
-    z-index: 20;
+    z-index: 3;
     width: 100vw;
 }
 .overlay {
@@ -109,9 +113,9 @@ h1 .title {
 /********GESTION DOULEUR*********/
 
 #gestion-douleur{
-    height: 800px;
     width: 100vw;
     background-color: #BBA890;
+    position : absolute;
 }
 
 /*******MEDIA QUERIES*********/
@@ -194,8 +198,7 @@ h1 .title {
         max-width: 100vw;
         background: #f0eeec url("/resources/img/tcc-avec-realite-virtuelle-femme-mediation.jpg") no-repeat ;
         background-size: cover;
-        z-index: 10;
-        position : absolute;
+
     }
 
     .overlay {
